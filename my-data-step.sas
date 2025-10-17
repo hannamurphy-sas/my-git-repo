@@ -10,7 +10,6 @@ data classunder30;
       delete;
 run;
 
-
 data classfemale;
     set sashelp.class;
     where sex="F";
@@ -18,5 +17,5 @@ run;
 
 data classmale;
     set sashelp.class;
-    where sex="M";
+    where sex="Male";
 run;
