@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_class_split_by_age_sex",
+  "source_file": "my-data-step.sas",
+  "source_blob_sha": "58d164d5832773e9c814e51a4dc9b7b953531a4c",
+  "source_commit": "0f2ca111b24358e07dd5854e72123990aaadfff5",
+  "notes": "Four DATA steps subsetting sashelp.class by age/sex, unmodified from source. Appended PROC PRINT calls (not present in source) so the run produces a visible listing for each of the four output datasets; the DATA step logic itself is byte-identical to the author's code. No mock data needed -- sashelp.class is a built-in sample table."
+}

@@ -1,0 +1,45 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260715T062217Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA classover30
+
+
+NOTE: Read 19 rows from sashelp.class.
+NOTE: Wrote classover30 (19 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA classunder30
+
+
+NOTE: Read 19 rows from sashelp.class.
+NOTE: Wrote classunder30 (0 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA classfemale
+
+
+NOTE: Read 9 rows from sashelp.class.
+NOTE: Wrote classfemale (9 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA classmale
+
+
+NOTE: Read 0 rows from sashelp.class.
+NOTE: Wrote classmale (0 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=classover30
+
+NOTE: PROC PRINT completed: 19 observations printed, 5 variables
+NOTE: PROC PRINT data=classunder30
+
+NOTE: PROC PRINT data=classfemale
+
+NOTE: PROC PRINT completed: 9 observations printed, 5 variables
+NOTE: PROC PRINT data=classmale
+
