@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_class_sql_over30",
+  "source_file": "my-sql-code.sas",
+  "source_blob_sha": "065c966ddf278ee2d6e89bcaec6e11be5c9e2dc2",
+  "source_commit": "0f2ca111b24358e07dd5854e72123990aaadfff5",
+  "notes": "PROC SQL SELECT against sashelp.class, byte-identical to source (no edits at all -- self-contained via the built-in sample table). The WHERE age>=30 filter matches zero rows in Jenner's sashelp.class (ages 11-16), so the run produces no listing rows; this is the author's own filter executing exactly as written."
+}

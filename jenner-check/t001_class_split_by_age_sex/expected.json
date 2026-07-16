@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-16T07:16:38Z",
+  "_captured_run_id": "r_b4f0e2c9ce704b219171e8c1b4400fba",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote classover30 (19 rows, 5 columns).",
+    "NOTE: Wrote classunder30 (0 rows, 5 columns).",
+    "NOTE: Wrote classfemale (9 rows, 5 columns).",
+    "NOTE: Wrote classmale (0 rows, 5 columns).",
+    "NOTE: PROC PRINT completed: 19 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
